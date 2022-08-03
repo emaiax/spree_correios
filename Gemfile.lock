@@ -45,9 +45,9 @@ GIT
 PATH
   remote: .
   specs:
-    spree_correios (1.0.1)
+    spree_correios (1.0.4)
       correios-frete (~> 1.5.2)
-      spree_core (~> 1.0.0)
+      spree_core (>= 1.0.0)
 
 GEM
   remote: http://rubygems.org/
@@ -110,6 +110,7 @@ GEM
       ffi (~> 1.0.6)
     cocaine (0.2.1)
     columnize (0.3.6)
+    concurrent-ruby (1.1.9)
     correios-frete (1.5.2)
       log-me (~> 0.0.2)
       nokogiri (~> 1.5.0)
@@ -135,7 +136,8 @@ GEM
       guard (>= 0.10.0)
     highline (1.6.8)
     hike (1.2.1)
-    i18n (0.6.0)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     jquery-rails (1.0.19)
       railties (~> 3.0)
       thor (~> 0.14)
@@ -146,7 +148,7 @@ GEM
       railties (>= 3.0.0)
     linecache19 (0.5.12)
       ruby_core_source (>= 0.1.4)
-    log-me (0.0.2)
+    log-me (0.0.10)
     mail (2.3.3)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
