@@ -45,9 +45,9 @@ GIT
 PATH
   remote: .
   specs:
-    spree_correios (1.0.1)
+    spree_correios (1.0.4)
       correios-frete (~> 1.5.2)
-      spree_core (~> 1.0.0)
+      spree_core (>= 1.0.0)
 
 GEM
   remote: http://rubygems.org/
@@ -146,7 +146,7 @@ GEM
       railties (>= 3.0.0)
     linecache19 (0.5.12)
       ruby_core_source (>= 0.1.4)
-    log-me (0.0.2)
+    log-me (0.0.10)
     mail (2.3.3)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -163,7 +163,7 @@ GEM
     nested_set (1.6.8)
       activerecord (>= 3.0.0)
       railties (>= 3.0.0)
-    nokogiri (1.5.2)
+    nokogiri (1.5.11)
     orm_adapter (0.0.6)
     paperclip (2.5.0)
       activerecord (>= 2.3.0)
